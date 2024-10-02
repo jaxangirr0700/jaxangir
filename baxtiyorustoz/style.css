@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1400px;
+  height: 1000px;
+}
+.full{
+width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed {
+  background-color: blueviolet;
+  width: 240px;
+  height: 150px;
+  position: fixed;
+  left: 20px;
+  top: 40px;
+  z-index: 100;
+  border-radius: 15px;
+  color: white;
+  opacity: 0.9;
+  z-index: 49;
+}
+.fixed h1 {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.fixed h3 {
+  padding-left: 15px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.text {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  color: blue;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+.navbar {
+  background-color: black;
+  width: 100%;
+
+  padding: 10px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+.welcome {
+  margin-bottom: 100px;
+  background-color: rgb(76, 76, 222);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  z-index: 10;
+}
+.welcometext {
+  padding-top: 80px;
+  position: relative;
+  z-index: 15999;
+}
+.welcome h4 {
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(105, 81, 175);
+  border-radius: 50%;
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  z-index: ;
+}
+.circle2 {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(184, 154, 228);
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -35px;
+  z-index: ;
+}
+.section {
+  width: 50%;
+  height: 70px;
+  background-color: gray;
+  position: relative;
+  top: 50px;
+  z-index: 10;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.seccircle {
+  background-color: rgb(176, 200, 200);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  z-index: -9;
+  border-radius: 50%;
+}
+.sectex {
+  display: flex;
+  flex-direction: column;
+}
+.sectext h2 {
+  color: blueviolet;
+}
+.main1 {
+  display: flex;
+  gap: 50px;
+}
+.main2 {
+  display: flex;
+  gap: 50px;
+}
+
+.yumalo1 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  right: -60px;
+  top: -60px;
+}
+.yumalo2 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  z-index: -2;
+}
+.yumalo3 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  z-index: -3;
+}
+.yumalo4 {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  z-index: -4;
+}
+
+.section11 {
+  display: flex;
+  gap: 100px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 10;
+}
+
+.static2 {
+  margin-bottom: 100px;
+  background-color: lightgrey;
+  padding: 25px;
+
+  border-radius: 15px;
+}
+.static1 {
+  margin-bottom: 100px;
+  background-color: lightgrey;
+  padding: 25px;
+
+  border-radius: 15px;
+  position: relative;
+  z-index: ;
+}
+.section22 {
+  display: flex;
+  margin-top: 20px;
+  gap: 100px;
+  position: relative;
+  z-index: 10;
+}
+.static4 {
+  background-color: lightgrey;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+  z-index: ;
+}
+.static5 {
+  background-color: lightgrey;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+  z-index: ;
+}
+.static1 h2 {
+  font-size: 30px;
+  color: blueviolet;
+  padding-bottom: 20px;
+}
+.static2 h2 {
+  font-size: 30px;
+  color: blueviolet;
+  padding-bottom: 20px;
+}
+.static4 h2 {
+  font-size: 30px;
+  color: blueviolet;
+  padding-bottom: 20px;
+}
+.static5 h2 {
+  font-size: 30px;
+  color: blueviolet;
+  padding-bottom: 20px;
+}
+.task {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.top{
+  width: 50px;
+  height: 50px;
+  background-color: chartreuse;
+  border-radius: 50%;
+  border: none;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  z-index: 1555;
+  cursor: pointer;
+}
+html{
+  scroll-behavior: smooth;
+}
